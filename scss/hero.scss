@@ -1,0 +1,146 @@
+.hero {
+  padding-top: 220px;
+
+  @media (max-width: 992px) {
+    padding-top: 150px;
+  }
+
+  background: url("../assets/hero-bg.png");
+
+  &__container {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin: 0 0 50px;
+
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.15625em;
+
+    @media (max-width: 1200px) {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 992px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    @media (max-width: 1400px) {
+      transform: translateX(20%);
+    }
+
+    @media (max-width: 768px) {
+      transform: translateX(35%);
+    }
+
+    @media (max-width: 380px) {
+      display: none;
+    }
+  }
+
+  &__img-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 800px;
+
+    @media (max-width: 992px) {
+      height: 620px;
+    }
+
+    @media (max-width: 768px) {
+      height: 550px;
+    }
+
+    @media (max-width: 528px) {
+      height: 460px;
+    }
+
+    @media (max-width: 445px) {
+      height: 380px;
+    }
+  }
+
+  &__text {
+    margin: 0 0 60px;
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.22em;
+    color: #EFEFEF;
+
+    @media (max-width: 1200px) {
+      font-size: 24px;
+    }
+
+    @media (max-width: 992px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+
+  &__row:first-child {
+    z-index: 2;
+    max-width: 50%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 220px;
+
+    @media (max-width: 1400px) {
+      max-width: 60%;
+    }
+
+    @media (max-width: 1200px) {
+      padding-bottom: 180px;
+    }
+
+    @media (max-width: 992px) {
+      padding-bottom: 100px;
+      max-width: 70%
+    }
+
+    @media (max-width: 380px) {
+      max-width: 90%;
+    }
+  }
+
+  &__row:last-child {
+    z-index: 1;
+    max-width: 50%;
+    width: 100%;
+
+    @media (max-width: 1400px) {
+      max-width: 40%;
+    }
+
+    @media (max-width: 992px) {
+      max-width: 30%;
+    }
+
+    @media (max-width: 380px) {
+      max-width: 0;
+    }
+  }
+}
+

@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CleverCRM</title>
+</head>
+<body>
+<div class="site-container">
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo header__logo">
+                <img src="assets/logo.png" alt="CleverCRM">
+            </div>
+            <div class="header__info-list list-line">
+                <div class="header__info-item address">
+                    <span class="d-b">г.Костанай. ул. Баймагамбетова 154</span>
+                    <span class="d-b">Пн-Пт с 8:00 до 20:00</span>
+                </div>
+                <div class="header__info-item social">
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="assets/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="#" class="social__link" target="_blank">
+                        <img src="assets/telegram.png" alt="Telegram">
+                    </a>
+                </div>
+                <div class="header__info-item header__contacts">
+                    <span class="d-b">
+                        <a href="#">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_202_13156)">
+<path class="fillable"
+      d="M11.8961 2.96328C11.9173 2.88396 11.954 2.8096 12.0039 2.74445C12.0539 2.67929 12.1162 2.62462 12.1873 2.58356C12.2584 2.54249 12.3369 2.51584 12.4183 2.50512C12.4997 2.49441 12.5824 2.49983 12.6617 2.5211C13.8204 2.8234 14.8775 3.4291 15.7242 4.27581C16.5709 5.12252 17.1766 6.17964 17.4789 7.33828C17.5002 7.41759 17.5056 7.50031 17.4949 7.58171C17.4842 7.66312 17.4575 7.74161 17.4165 7.81271C17.3754 7.88382 17.3207 7.94613 17.2556 7.99609C17.1904 8.04606 17.116 8.08269 17.0367 8.10391C16.9839 8.11778 16.9296 8.12486 16.875 8.125C16.7373 8.125 16.6034 8.0795 16.4942 7.99558C16.385 7.91166 16.3066 7.79402 16.2711 7.66094C16.0245 6.7151 15.5302 5.85212 14.8391 5.16096C14.1479 4.4698 13.2849 3.97546 12.3391 3.72891C12.2597 3.70778 12.1852 3.6712 12.12 3.62127C12.0548 3.57134 12 3.50904 11.9589 3.43793C11.9177 3.36682 11.891 3.2883 11.8802 3.20686C11.8695 3.12541 11.8749 3.04264 11.8961 2.96328ZM11.7141 6.22891C12.7914 6.51641 13.4836 7.2086 13.7711 8.28594C13.8066 8.41902 13.885 8.53666 13.9942 8.62058C14.1034 8.7045 14.2373 8.75 14.375 8.75C14.4296 8.74986 14.4839 8.74278 14.5367 8.72891C14.616 8.70769 14.6904 8.67106 14.7556 8.62109C14.8207 8.57113 14.8754 8.50882 14.9165 8.43771C14.9575 8.36661 14.9842 8.28812 14.9949 8.20671C15.0056 8.12531 15.0002 8.04259 14.9789 7.96328C14.5789 6.46641 13.5336 5.4211 12.0367 5.0211C11.9574 4.99991 11.8747 4.99455 11.7933 5.00533C11.712 5.0161 11.6335 5.0428 11.5624 5.0839C11.4914 5.125 11.4291 5.17969 11.3792 5.24485C11.3293 5.31001 11.2927 5.38437 11.2715 5.46367C11.2503 5.54298 11.2449 5.62568 11.2557 5.70706C11.2665 5.78844 11.2932 5.86689 11.3343 5.93795C11.3754 6.00901 11.4301 6.07128 11.4952 6.1212C11.5604 6.17112 11.6348 6.20772 11.7141 6.22891ZM18.1156 13.6781C17.9763 14.7367 17.4564 15.7085 16.6531 16.4118C15.8497 17.1151 14.8177 17.5019 13.75 17.5C7.54688 17.5 2.50001 12.4531 2.50001 6.25C2.49809 5.18226 2.88492 4.15033 3.58824 3.34695C4.29155 2.54357 5.26326 2.02368 6.32188 1.88438C6.58958 1.85169 6.86067 1.90646 7.09468 2.0405C7.3287 2.17455 7.51309 2.38068 7.62032 2.62813L9.27032 6.31172V6.3211C9.35242 6.51051 9.38633 6.71731 9.36901 6.92303C9.3517 7.12875 9.2837 7.32697 9.1711 7.5C9.15704 7.5211 9.14219 7.54063 9.12657 7.56016L7.50001 9.48828C8.08516 10.6773 9.32891 11.9102 10.5336 12.4969L12.4352 10.8789C12.4538 10.8632 12.4734 10.8486 12.4938 10.8352C12.6666 10.7198 12.8655 10.6495 13.0725 10.6304C13.2794 10.6113 13.4878 10.6441 13.6789 10.7258L13.6891 10.7305L17.3695 12.3797C17.6174 12.4865 17.8241 12.6708 17.9585 12.9048C18.093 13.1389 18.1481 13.4102 18.1156 13.6781ZM16.875 13.5219H16.8664L13.1945 11.8773L11.2922 13.4953C11.2737 13.5109 11.2544 13.5256 11.2344 13.5391C11.0545 13.6591 10.8466 13.7304 10.6309 13.746C10.4152 13.7616 10.1992 13.721 10.0039 13.6281C8.54063 12.9211 7.08204 11.4734 6.37423 10.0258C6.2805 9.83192 6.23844 9.61713 6.25213 9.40224C6.26582 9.18734 6.33478 8.97963 6.45235 8.79922C6.4656 8.77804 6.48049 8.75792 6.49688 8.73906L8.12501 6.8086L6.48438 3.13672C6.48407 3.1336 6.48407 3.13046 6.48438 3.12735C5.72677 3.22617 5.03116 3.59779 4.52783 4.17259C4.0245 4.7474 3.74796 5.48597 3.75001 6.25C3.7529 8.90128 4.8074 11.4431 6.68214 13.3179C8.55687 15.1926 11.0987 16.2471 13.75 16.25C14.5136 16.2526 15.2519 15.9771 15.8271 15.4748C16.4022 14.9726 16.7747 14.278 16.875 13.5211V13.5219Z"
+      fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_202_13156">
+<rect width="20" height="20" fill="white" transform="translate(0 0.0397797)"/>
+</clipPath>
+</defs>
+</svg>
+                            531-738
+                        </a>
+                    </span>
+                    <span class="d-b">
+                        <a href="#">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_244_6695)">
+<path class="fillable"
+      d="M14.6545 11.6395L12.1545 10.3895C12.0561 10.3405 11.9465 10.3182 11.8368 10.3251C11.727 10.332 11.621 10.3676 11.5295 10.4286L10.3819 11.1942C9.85502 10.9046 9.42147 10.471 9.13185 9.94418L9.89748 8.79652C9.95839 8.70499 9.99407 8.599 10.0009 8.48927C10.0078 8.37953 9.98558 8.26993 9.93654 8.17152L8.68654 5.67152C8.63473 5.56689 8.55464 5.47886 8.45536 5.41742C8.35608 5.35597 8.24158 5.32356 8.12482 5.32387C7.29602 5.32387 6.50116 5.65311 5.91511 6.23916C5.32906 6.82521 4.99982 7.62007 4.99982 8.44887C5.00189 10.2716 5.72688 12.0191 7.01574 13.3079C8.30461 14.5968 10.0521 15.3218 11.8748 15.3239C12.2852 15.3239 12.6916 15.243 13.0707 15.086C13.4498 14.9289 13.7943 14.6988 14.0845 14.4086C14.3747 14.1184 14.6049 13.7739 14.7619 13.3948C14.919 13.0156 14.9998 12.6092 14.9998 12.1989C14.9999 12.0828 14.9676 11.9689 14.9066 11.8701C14.8457 11.7713 14.7583 11.6915 14.6545 11.6395ZM11.8748 14.0739C10.3835 14.0722 8.9537 13.4791 7.89917 12.4245C6.84464 11.37 6.25147 9.9402 6.24982 8.44887C6.2497 8.01537 6.39979 7.59522 6.67456 7.25992C6.94932 6.92461 7.33178 6.69488 7.75685 6.60981L8.65373 8.40668L7.89044 9.54262C7.83341 9.62818 7.79836 9.72649 7.78841 9.82883C7.77846 9.93118 7.79392 10.0344 7.83341 10.1293C8.28059 11.1921 9.12608 12.0376 10.1889 12.4848C10.2841 12.5261 10.3881 12.5429 10.4915 12.5339C10.5949 12.5249 10.6944 12.4903 10.7811 12.4332L11.9225 11.6723L13.7194 12.5692C13.6336 12.9947 13.4029 13.3774 13.0665 13.6518C12.7301 13.9262 12.3089 14.0754 11.8748 14.0739ZM9.99982 2.19887C8.59706 2.19856 7.21811 2.56144 5.9972 3.25217C4.77629 3.94291 3.75501 4.93797 3.03277 6.14051C2.31052 7.34305 1.91192 8.71209 1.87575 10.1144C1.83958 11.5167 2.16709 12.9044 2.82638 14.1426L1.93966 16.8028C1.86621 17.023 1.85556 17.2594 1.90888 17.4853C1.96221 17.7113 2.07741 17.9179 2.24158 18.0821C2.40575 18.2463 2.61239 18.3615 2.83836 18.4148C3.06432 18.4681 3.30067 18.4575 3.52091 18.384L6.18107 17.4973C7.27073 18.0769 8.47811 18.4006 9.71156 18.4439C10.945 18.4872 12.1721 18.2489 13.2997 17.7471C14.4273 17.2453 15.4258 16.4933 16.2194 15.548C17.0129 14.6027 17.5807 13.4891 17.8796 12.2916C18.1785 11.0942 18.2007 9.84434 17.9445 8.63702C17.6882 7.42971 17.1603 6.29663 16.4008 5.3238C15.6413 4.35097 14.6701 3.56396 13.561 3.0225C12.4519 2.48105 11.234 2.19937 9.99982 2.19887ZM9.99982 17.1989C8.79121 17.1997 7.6038 16.8814 6.55763 16.2762C6.48104 16.2318 6.39587 16.2042 6.30779 16.1951C6.2197 16.1861 6.13071 16.1959 6.0467 16.2239L3.12482 17.1989L4.09904 14.277C4.12712 14.193 4.13705 14.1041 4.12816 14.016C4.11927 13.9279 4.09177 13.8427 4.04748 13.7661C3.28964 12.4558 2.98537 10.9321 3.18187 9.43134C3.37837 7.93054 4.06466 6.53654 5.13426 5.46558C6.20387 4.39462 7.597 3.70658 9.09755 3.50818C10.5981 3.30979 12.1222 3.61213 13.4334 4.36831C14.7445 5.12449 15.7695 6.29223 16.3493 7.69039C16.9291 9.08855 17.0313 10.639 16.64 12.1011C16.2487 13.5633 15.3858 14.8554 14.1852 15.7772C12.9846 16.6989 11.5134 17.1986 9.99982 17.1989Z"
+      fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_244_6695">
+<rect width="20" height="20" fill="white" transform="translate(0 0.323868)"/>
+</clipPath>
+</defs>
+</svg>
+                            8 702 13 33 666
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="hero" class="hero">
+            <div class="container hero__container">
+                <div class="row hero__row">
+                    <h1 class="hero__title">Ремонтируем вашу технику в кратчайшие сроки</h1>
+                    <p class="hero__text">Получить 15% скидку на ремонт и бесплатный выезд мастера</p>
+                    <div class="hero__footer">
+                        <a href="#" class="btn btn--border hero__btn">
+                            <span>Подать заявку</span>
+                        </a>
+                        <a href="#" class="btn btn--border btn--border-gradient hero__btn">
+                            <span>О нас</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row hero__row">
+                    <div class="hero__img-wrapper">
+                        <img class="hero__img" src="assets/hero-img.png" alt="Девушка">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="separator">
+            <div class="separator__col left">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="separator__col right">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <section id="services" class="services">
+            <div class="container services__container">
+                <h1 class="services__title section__title">Наши услуги</h1>
+                <div class="services__list">
+                    <div class="services__item">
+                        <h3 class="services__item-text">Продажа компьютерной техники</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/pc.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <h3 class="services__item-text">Ускорение работы ПК и ноутбука</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/accel.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <h3 class="services__item-text">Установка систем видеонаблюдения</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/camera.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <h3 class="services__item-text">Ремонт оргтехники и заправка картриджей</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/printer.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <h3 class="services__item-text">Прокладка локальных сетей</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/router.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <h3 class="services__item-text">Установка LED экранов и турникетов</h3>
+                        <div class="services__item-image-wrapper">
+                            <img src="assets/service/gate.png" alt="" class="services__item-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials">
+            <div class="container testimonials__container">
+                <h1 class="section__title testimonials__title">Отзывы</h1>
+                <div class="testimonials__list">
+                    <div class="testimonials__item">
+                        <div class="testimonials__item-header">
+                            <div class="testimonials__item-avatar">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_407_4852)">
+                                        <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        <rect x="19" y="11" width="24" height="24" rx="12" fill="#FFCB14"/>
+                                        <rect x="-14" y="41" width="90" height="90" rx="45" fill="#FFCB14"/>
+                                    </g>
+                                    <rect x="0.5" y="0.5" width="61" height="61" rx="30.5" stroke="black"
+                                          stroke-opacity="0.05"/>
+                                    <defs>
+                                        <clipPath id="clip0_407_4852">
+                                            <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="testimonials__item-info">
+                                <div class="testimonials__item-author">Дмитрий</div>
+                                <div class="testimonials__item-rating">
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__item-body">
+                            <p>
+                                Прекрасный сервис. Внезапно сломался компьютер,
+                                но когда привёз его, сразу обнадёжили и
+                                решили проблему за пару часов.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__item-header">
+                            <div class="testimonials__item-avatar">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_407_4852)">
+                                        <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        <rect x="19" y="11" width="24" height="24" rx="12" fill="#FF8514"/>
+                                        <rect x="-14" y="41" width="90" height="90" rx="45" fill="#FF8514"/>
+                                    </g>
+                                    <rect x="0.5" y="0.5" width="61" height="61" rx="30.5" stroke="black"
+                                          stroke-opacity="0.05"/>
+                                    <defs>
+                                        <clipPath id="clip0_407_4852">
+                                            <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="testimonials__item-info">
+                                <div class="testimonials__item-author">Алмаз</div>
+                                <div class="testimonials__item-rating">
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__item-body">
+                            <p>
+                                Понадобилось видеонаблюдение для бизнеса.
+                                Установили быстро, настроили и понятно
+                                объяснили как пользоваться.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__item-header">
+                            <div class="testimonials__item-avatar">
+                                <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_407_4852)">
+                                        <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        <rect x="19" y="11" width="24" height="24" rx="12" fill="#A6CDF1"/>
+                                        <rect x="-14" y="41" width="90" height="90" rx="45" fill="#A6CDF1"/>
+                                    </g>
+                                    <rect x="0.5" y="0.5" width="61" height="61" rx="30.5" stroke="black"
+                                          stroke-opacity="0.05"/>
+                                    <defs>
+                                        <clipPath id="clip0_407_4852">
+                                            <rect x="1" y="1" width="60" height="60" rx="30" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="testimonials__item-info">
+                                <div class="testimonials__item-author">Илья</div>
+                                <div class="testimonials__item-rating">
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 3.90594L7.46654 5.02764L7.81839 5.87358L8.73165 5.9468L9.94263 6.04388L9.01999 6.83422L8.32418 7.43025L8.53676 8.32144L8.81864 9.50315L7.78188 8.8699L7 8.39233L6.21812 8.8699L5.18136 9.50315L5.46324 8.32144L5.67582 7.43025L4.98001 6.83422L4.05737 6.04388L5.26835 5.9468L6.18161 5.87358L6.53346 5.02764L7 3.90594Z"
+                                              fill="#F1C644" stroke="#F1C644" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__item-body">
+                            <p>
+                                Начал тормозить компьютер. Свободного времени мало, поэтому отнёс его парням, быстро всё
+                                решили, файлы в целости. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__footer">
+                    <a href="#" class="btn btn--white testimonials__btn">
+                        <span>Показать все</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="feedback" class="feedback">
+            <div class="container feedback__container">
+                <div class="row feedback__row">
+                    <h1 class="section__title feedback__title">Задать вопрос</h1>
+                    <form action="" class="form feedback__form">
+                        <div class="form__group">
+                            <label>
+                                <input type="text" class="form__input" placeholder="Как вас зовут?">
+                            </label>
+                        </div>
+                        <div class="form__group">
+                            <label>
+                                <input type="text" class="form__input" placeholder="Номер телефона?">
+                            </label>
+                        </div>
+                        <div class="form__group">
+                            <label>
+                                <input type="text" class="form__input" placeholder="Ваш вопрос?">
+                            </label>
+                        </div>
+                        <div class="form__group">
+                            <button class="btn btn--submit" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row feedback__row">
+                    <div class="feedback__image-wrapper">
+                        <img src="assets/notebook.png" class="feedback__img" alt="Ноутбук">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="container contacts__container">
+                <div class="row contacts__row">
+                    <h1 class="contacts__title section__title">
+                        Наши Контакты
+                    </h1>
+                    <div class="contacts__list">
+                        <div class="contacts__item">
+                            <img src="assets/phone-blue.png" alt="Телефон">
+                            <a href="#">531 738</a>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="assets/whatsapp-blue.png" alt="WhatsApp">
+                            <a href="#">8 702 1 333 666</a>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="assets/inst-blue.png" alt="Инстаграм">
+                            <a href="#">@ise.asia</a>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="assets/telegram-blue.png" alt="Телеграм">
+                            <a href="#">t.me/ISE_COMP</a>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="assets/map-pin.png" alt="Адрес">
+                            <a href="#">г.Костанай. ул.Баймагамбетова 154</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row contacts__row">
+                    <img src="assets/map-image.png" alt="Карта" class="contacts__img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">
+                    &copy; Все права защищены ISE 2023
+                </div>
+                <div class="footer__counter">
+                    Счётчик
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
