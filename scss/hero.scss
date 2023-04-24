@@ -54,6 +54,8 @@
     @media (max-width: 380px) {
       display: none;
     }
+
+    pointer-events: none;
   }
 
   &__img-wrapper {

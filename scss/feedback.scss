@@ -62,7 +62,8 @@
     object-fit: cover;
     right: -15%;
     object-position: left;
-    
+    pointer-events: none;
+
     @media (max-width: 992px) {
       right: -35%;
     }
